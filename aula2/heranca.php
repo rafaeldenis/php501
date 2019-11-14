@@ -12,7 +12,7 @@ $funcionario->sobrenome = 'Silva';
 $funcionario->dataNascimento = '1966-02-06';
 $funcionario->sexo = 'Indefinido';
 $funcionario->cargo = 'Escravo/Programador';
-$funcionario->setor = 'Tecnologia da info';
+$funcionario->setor = 'Tecnologia da info'; 
 $funcionario->atributoNovo = 'Novo';
 
 echo "<pre>";
