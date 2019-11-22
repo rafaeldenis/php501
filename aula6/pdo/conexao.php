@@ -29,7 +29,8 @@ class ConectDatabase
 $obj = new ConectDatabase('mysql:host=localhost;dbname=blog', 'developer', '4linux');
 
 foreach ($obj->select('usuarios') as $usuario) {
-    print_r($usuario);
+    echo "<pre>";
+    print_r($usuario);  
 }
 // try {
 //     $conexao = new PDO($servidor, $usuario, $senha);
